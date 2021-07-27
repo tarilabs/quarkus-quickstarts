@@ -22,5 +22,4 @@ public class PricingTest {
             .statusCode(200)
             .body("'Base price'", is(500));
     }
-
 }
